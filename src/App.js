@@ -1,25 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import OurWork from './component/OurWork';
+import Navbar from './component/Navbar'
+import ProductCollection from './component/ProductCollection';
+import VideoBackground from './component/VideoBackground';
 
 function App() {
-  return (
+  return (<>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="offer">Buy 2 or more surf products and get 25% off!<span>Shop now</span>
+      </div>
+      <Navbar />
+      <VideoBackground />
+      <ProductCollection />
+      <OurWork/>
     </div>
+  </>
   );
 }
-
 export default App;

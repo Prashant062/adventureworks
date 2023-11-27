@@ -1,0 +1,39 @@
+/* OurWork.css */
+
+.work-container {
+    /* Your existing styles for work-container */
+    position: relative;
+}
+
+.card-slider {
+    overflow: hidden;
+}
+
+.card-list {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.work-list-items {
+    flex: 0 0 25%;
+}
+
+.navigation-buttons {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+}
+
+button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

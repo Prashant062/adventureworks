@@ -1,0 +1,146 @@
+.work-list-items {
+  list-style: none;
+  width: 20rem;
+}
+
+.adventure-work-item {
+  text-decoration: none;
+  color: inherit;
+  border-radius: 3%;
+  transition: filter 1s, transform 1s;
+}
+
+.adventure-work-item:hover {
+  filter: brightness(50%);
+  transform: scale(1.05);
+  border-radius: 0;
+  transition: filter 0.5s, transform 0.5s;
+}
+
+.card-container {
+  position: relative;
+  height: 23rem;
+  width: 17rem; /* Adjust the width as needed */
+  overflow: hidden;
+  border-radius: 3%;
+  transition: box-shadow 0.5s, border-radius 0.5s;
+}
+
+.card-container:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 0;
+  transition: box-shadow 0.5s;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: transform 0.5s, bottom 0.5s;
+}
+
+.adventure-work-item:hover h1 {
+  transform: translateY(-1rem) scale(1.1);
+  left: 1.5rem;
+  transition: transform 0.5s, left 0.5s; /* Added smoother transition */
+}
+
+.adventure-work-item:hover .logo-container img {
+  transform: translateY(-1rem) scale(1.1);
+  position: relative;
+  left: 1.5rem;
+  bottom: 6rem;
+  transition: transform 0.5s, left 0.5s, bottom 0.8s; /* Added smoother transition */
+}
+
+.logo-container h1 {
+  position: absolute;
+  margin: 0;
+  left: 27%;
+  bottom: 60%;
+  font-size: 1.8rem;
+  color: white;
+  overflow: hidden;
+  transition: transform 0.5s, left 0.5s;
+}
+
+.logo-container h1::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: #3498db;
+  transition: width 0.8s ease-in-out;
+}
+
+.adventure-work-item:hover .logo-container h1::before {
+  width: 100%;
+}
+.bg-image img {
+  position: relative;
+  bottom: 2rem;
+  height: 4rem;
+  display: block;
+}
+
+.work-container {
+  position: relative;
+  padding: 0;
+}
+.card-slider {
+  overflow: hidden;
+  margin-left: 15px;
+}
+
+.card-list {
+  display: flex;
+  margin-left: 2rem;
+  transition: transform 0.5s ease-in-out;
+}
+
+.work-list-items {
+  flex: 0 0 20%;
+  margin-right: 10px;
+}
+.navigation-buttons button:disabled {
+  display: none;
+}
+
+.prev-angle {
+  width: 70px;
+  height: 70px;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid white;
+  position: relative;
+  bottom: 15rem;
+  right: 35rem;
+}
+
+.next-angle {
+  width: 70px;
+  height: 70px;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid white;
+  position: relative;
+  bottom: 15rem;
+  left: 32rem;
+}
+
+.next-angle i,
+.prev-angle i {
+  font-size: 40px;
+}

@@ -1,12 +1,28 @@
-.App {
-  text-align: center;
+.App {                                                      
+  text-align: center;                              
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.offer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  background-color: rgb(188, 102, 231);
+  border-radius: none;
+  color: white;
+  height: 25px;
+  border: 1px solid #ccc;
+  border-radius: 0;
 
+}
+.offer span{
+  margin-left: 10px;
+  text-decoration: underline;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
