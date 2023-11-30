@@ -20,6 +20,7 @@ const ProductCollection = () => {
             title: 'Kiama Classic Surfboard',
             price: '$ 790.00',
             rating: '★★★☆☆(10)',
+            buttonColors: ['rgb(134, 191, 200)','rgb(150, 208, 106)','rgb(54, 161, 242)']
         },
         {
             id: 2,
@@ -27,6 +28,7 @@ const ProductCollection = () => {
             title: 'Swimsuit',
             price: '$ 45.00',
             rating: '★★★☆☆(2)',
+            buttonColors: ['rgb(220, 180, 188)']
         },
         {
             id: 3,
@@ -34,6 +36,7 @@ const ProductCollection = () => {
             title: 'Tomeq Snorkel Package',
             price: '$ 78.00',
             rating: '★★★☆☆(3)',
+            buttonColors: ['rgb(20, 127, 200)','rgb(124, 241, 76)','rgb(245, 0, 26)']
         },
         {
             id: 4,
@@ -41,6 +44,7 @@ const ProductCollection = () => {
             title: 'Paltoni Sandals',
             price: '$ 60.00',
             rating: '★★★☆☆(2)',
+            buttonColors: ['rgb(222, 110, 176)','rgb(253, 157, 229)']
         },
     ];
     
@@ -86,6 +90,7 @@ const ProductCollection = () => {
                                     {card.images.map((image, buttonIndex) => (
                                         <button
                                             key={buttonIndex}
+                                            style={{ backgroundColor: card.buttonColors[buttonIndex]}}
                                             className={`btn${buttonIndex + 1} ${buttonIndex === selectedButtonIndices[index] ? 'selected' : ''}`}
                                             onClick={() => handleButtonClick(index, buttonIndex)}
                                         ></button>

@@ -1,0 +1,81 @@
+.cost-container {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  height: 48rem;
+  width: 90vw;
+  position: relative;
+  bottom: 22rem;
+  left: 4rem;
+  background-image: url("../Assets/GrandCost.jpeg"); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.grand-cost-content {
+  display: inline;
+}
+.grand-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6rem;
+  color: white;
+  font-size: 50px;
+  position: relative;
+  top: 4rem;
+  left: 6rem;
+}
+.collection-title {
+  font-family: 'Grey Qo', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 80px;
+  position: relative;
+  left: 7rem;
+  height: 6rem;
+  width: 20rem;
+  top: 1em;
+}
+.sign-thopmson {
+  display: flex;
+  font-family: 'Grey Qo', cursive;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  top: 3rem;
+  color: white;
+  position: relative;
+}
+.grand-coast-content{
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+.grand-coast-content p{
+    font-size: 1em;
+    position: relative;
+    margin-right: 10px;
+}
+.grand-coast-content p span{
+  text-decoration: underline;
+}
+.grand-coast-content .button-getlook{
+    display: inline-block;
+    padding: .6em 3em;
+    font-size: 1em;
+    text-decoration: none;
+    background-color: #333;
+    color: white;
+    border-radius: 20px;
+    position: relative;
+    border: 1px solid white;
+    right: 5rem;
+    top: 1.5rem;
+    transition: background-color 0.3s ease;
+}

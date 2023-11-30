@@ -1,0 +1,188 @@
+.eco-carousel-container{
+  height: 41rem;
+}
+.product {
+    position: relative;
+    top: 1rem;
+    background-color: white;
+    border-radius: 20px;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .product:hover {
+    transform: scale(1.05);
+    border: 1px solid #ddd;
+  }
+  
+  .product img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .title {
+    padding: 15px;
+  }
+  .eco-carousel-container {
+    position: relative;
+    width: 45%;
+    top: 30px;
+    left: 100px;
+    overflow: hidden;
+    border-radius: 0px;
+  }
+  .eco-carousel-container h1{
+    font-size: 50px;
+    
+  }
+  
+  .eco-carousel {
+    display: flex;
+    justify-content: center;
+    border-radius: 0px;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .eco-carousel-card {
+    padding: 0 10px;
+    text-align: center;
+  }
+  
+  .eco-carousel-card.active {
+    opacity: 1;
+  }
+  
+  .product {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 0px;
+  }
+  
+  .title {
+    margin-top: 10px;
+  }
+  
+  .price {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+    margin-right: 5px;
+  }
+  
+  .eco-arrow-left,
+  .eco-arrow-right {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-right: 20px;
+    border-radius: 50%;
+    border: 1px solid white;
+    position: relative;
+  }
+  
+  .eco-arrow-left:hover,
+  .eco-arrow-right:hover {
+    transform: scale(1.05); 
+    border-radius: 50%;
+    border: 1px solid #ddd;
+  }
+  
+  .eco-arrow-left:disabled,
+  .eco-arrow-right:disabled {
+    cursor: pointer;
+  }
+  
+  .eco-arrow-left i,
+  .eco-arrow-right i {
+    font-size: 50px;
+  }
+  
+  
+  .price {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    color: #333; 
+  }
+  
+  .rating {
+    padding: 10px 15px;
+    color: #333;
+  }
+  
+  .btn1,
+  .btn2,
+  .btn3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid white; 
+    margin-right: 5px;
+  }
+  
+  /* Add background images to your buttons as needed */
+  .btn1 {
+    background-color: #86bfc8;
+  }
+  
+  .btn2 {
+    background-color: #96d06a;
+  }
+  
+  .btn3 {
+    background-color: #36a1f2;
+  }
+  
+  .eco-works-container{
+    display: flex;
+    height: 80vh;
+    width: 39rem;
+    position: relative;
+    left:45rem;
+    bottom:37rem;
+    
+  }
+  .ecoWorks-content {
+    text-align: center; 
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+.ecoWorks-content h1 {
+  text-align: left;
+    color: #2c262d; 
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.ecoWorks-content p {
+    text-align: left;
+    margin-top: 10px; 
+     margin-bottom: 15px;
+    width: 35rem;
+}
+
+.ecoWorks-content button {
+    background-color:hsl(291, 8%, 16%);
+    color: white; 
+    padding: 9px 30px; 
+    font-size: 15px;
+    cursor: pointer; 
+    display: block; 
+    border-radius: 60px;
+    margin-top: 10px;
+    position: absolute;
+    top: 45%;
+   
+}

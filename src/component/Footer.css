@@ -1,0 +1,37 @@
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 33px 20px;
+    background-color: #2c262D;
+    color: #fff;
+  }
+  .footer-img img {
+      position: relative;
+      top:2px;
+  }
+.copyright {
+    position: relative;
+    
+}
+
+  .policy,
+  .facebook,
+  .twitter,
+  .instagram,
+  .youtube{
+    /* display: flex; */
+    align-items: center;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+ 
+  .footer .facebook span,
+.footer .twitter i,
+.footer .instagram i,
+.footer .youtube span {
+  /* Increase the font size of the icons */
+  font-size: 30px;
+margin: 0px  0px;
+}

@@ -1,0 +1,132 @@
+.Trend-carousel-container h1{
+  position: relative;
+   top: 5rem;
+  
+}
+.Trend-product {
+    position: relative;
+    width: 250px;
+    top: 10rem;
+    background-color: white;
+    border-radius: 20px;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .Trend-product:hover {
+    transform: scale(1.05);
+    border: 1px solid #ddd;
+  }
+  
+  .Trend-product img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .title {
+    padding: 15px;
+  }
+  .Trend-carousel-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 0px;
+    bottom: 22rem;
+  }
+  .Trend-carousel-container h1{
+    font-size: 50px;
+  }
+  
+  .Trend-carousel {
+    display: flex;
+    justify-content: center;
+    border-radius: 0px;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .Trend-carousel-card {
+    padding: 0 10px;
+    text-align: center;
+  }
+  
+  .Trend-carousel-card.active {
+    opacity: 1;
+  }
+  
+  .Trend-product {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 0px;
+  }
+  
+  .title {
+    margin-top: 10px;
+  }
+  
+  .price {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+    margin-right: 5px;
+  }
+  
+  .Trend-arrow-left,
+  .Trend-arrow-right {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    cursor: pointer;
+    margin-top: 14rem;
+    margin-right: 20px;
+    border-radius: 50%;
+    position: relative;
+    border: 1px solid white;
+  }
+  
+  .Trend-arrow-left:hover,
+  .Trend-arrow-right:hover {
+    transform: scale(1.05); 
+    border-radius: 50%;
+    border: 1px solid #ddd;
+  }
+  
+  .Trend-arrow-left:disabled,
+  .Trend-arrow-right:disabled {
+    cursor: pointer;
+  }
+  
+  .Trend-arrow-left i,
+  .Trend-arrow-right i {
+    font-size: 50px;
+  }
+  
+  
+  .price {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    color: #333; 
+  }
+  
+  .rating {
+    padding: 10px 15px;
+    color: #333;
+  }
+  
+  .btnt1,
+  .btnt2,
+  .btnt3,.btnt4{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid white; 
+    margin-right: 5px;
+  }

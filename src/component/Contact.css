@@ -1,0 +1,96 @@
+.contact-services-container{
+    position: relative;
+   bottom: 10rem;
+}
+.contact-content{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    position: relative;
+    right: 40px;
+}
+.contact-content,
+.customer-servic,
+.help-center,
+.covid-19 {
+    text-align: left;
+}
+
+
+.contact-content h4,
+.customer-servic h4,
+.help-center h4,
+.covid-19 h4 {
+    color: rgb(14, 13, 13);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+.contact-content a,
+.customer-servic a,
+.help-center a,
+.covid-19 a {
+    color: rgb(20, 17, 17);
+    text-decoration: none;
+    display: block;
+    margin-top:5px;
+}
+.contact-content a:hover,
+.customer-servic a:hover,
+.help-center a:hover,
+.covid-19 a:hover{
+  text-decoration: underline;
+}
+.line {
+    width: 90%;
+    height: 0.5px; /* Adjust thickness as needed */
+    background-color: #333; /* Adjust color as needed */
+    margin: 10px 50px;
+}
+.about-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+.about-info,
+.help-info,
+.MyAW-info,
+.customer-info,
+.events-info {
+    text-align: left;
+}
+
+
+.about-info h4,
+.help-info h4,
+.MyAW-info h4,
+.customer-info h4,
+.events-info h4 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+.about-info a,
+.help-info a,
+.MyAW-info a,
+.customer-info a,
+.events-info a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    margin-top: 25px; 
+}
+
+
+.about-info a:hover,
+.help-info a:hover,
+.MyAW-info a:hover,
+.customer-info a:hover,
+.events-info a:hover {
+  text-decoration: underline;
+}

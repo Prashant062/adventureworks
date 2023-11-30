@@ -1,0 +1,139 @@
+.New-carousel-container{
+  height: 55rem;
+  position: relative;
+}
+.New-product {
+  position: relative;
+  width: 250px;
+  /* top: 10rem; */
+  background-color: white;
+  border-radius: 20px;
+  transition: transform 0.5s ease-in-out;
+  }
+  
+  .New-product:hover {
+    transform: scale(1.05);
+    border: 1px solid #ddd;
+  }
+  
+  .New-product img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .title {
+    padding: 15px;
+  }
+  .New-carousel-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 0px;
+    bottom: 22rem;
+  }
+  .New-carousel-container h1{
+    font-size: 50px;
+  }
+  
+  .New-carousel {
+    display: flex;
+    justify-content: center;
+    border-radius: 0px;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .New-carousel-card {
+    padding: 0 10px;
+    text-align: center;
+  }
+  
+  .New-carousel-card.active {
+    opacity: 1;
+  }
+  
+  .New-product {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 0px;
+  }
+  
+  .title {
+    margin-top: 10px;
+  }
+  
+  .price {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+    margin-right: 5px;
+  }
+  
+  .New-arrow-left,
+  .New-arrow-right {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 20px;
+    border-radius: 50%;
+    position: relative;
+    top: 2rem;
+    border: 1px solid white;
+  }
+  
+  .New-arrow-left:hover,
+  .New-arrow-right:hover {
+    transform: scale(1.05); 
+    border-radius: 50%;
+    border: 1px solid #ddd;
+  }
+  
+  .New-arrow-left:disabled,
+  .New-arrow-right:disabled {
+    cursor: pointer;
+  }
+  
+  .New-arrow-left i,
+  .New-arrow-right i {
+    font-size: 50px;
+  }
+  
+  
+  .price {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    color: #333; 
+  }
+  
+  .rating {
+    padding: 10px 15px;
+    color: #333;
+  }
+  
+  .btnN1,
+  .btnN2,
+  .btnN3,
+  .btnN4,
+  .btnN5,
+  .btnN6,
+  .btnN7,
+  .btnN8{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid white; 
+    margin-right: 5px;
+  }
+  
+  
